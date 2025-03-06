@@ -1,6 +1,6 @@
 # HowTo
 
-- Download mods.zip (https://github.com/0SirLoin/civ7_modpack/releases/download/v2/mods.zip)
+- Download mods.zip ("https://github.com/0SirLoin/civ7_modpack/releases/download/v3/Sir Loin's Modpack.zip")
 - Unpack the zip file
 - Copy all files to %USERPROFILE%/AppData/Local/Firaxis Games/Sid Meier's Civilization VII/Mods
 - ???

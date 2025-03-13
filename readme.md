@@ -7,6 +7,14 @@
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v5
+- added: "https://forums.civfanatics.com/resources/modsettings-manager.32070/"
+  - A unique place to manage all your mod Settings
+- added: "https://forums.civfanatics.com/resources/choose-starting-layers.32067/"
+  - Turn on Tile Yields or turn off the Hex Grid by default when the game loads with new menu settings
+- bugfix: UI Tweaks
+  - fixed a bug with leader tooltips which prevent the multiplayer lobby screen from rendering
+
 ## Sir Loin's ModPack v4
 - added: "https://forums.civfanatics.com/resources/ynamp-larger-map-tsl-continents-beta.31855/"
   - New map sizes, Continents++ script and TSL Greatest Earth Map

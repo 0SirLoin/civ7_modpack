@@ -1,12 +1,74 @@
 # HowTo
 
-- Download mods.zip ("https://github.com/0SirLoin/civ7_modpack/releases/download/v3/SirLoinsModpack.zip")
+- Download newest version of mods zip file: "https://github.com/0SirLoin/civ7_modpack/raw/main/SirLoinsModpack.zip"
 - Unpack the zip file
 - Copy all files to %USERPROFILE%/AppData/Local/Firaxis Games/Sid Meier's Civilization VII/Mods
 - ???
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v4
+- added: "https://forums.civfanatics.com/resources/ynamp-larger-map-tsl-continents-beta.31855/"
+  - New map sizes, Continents++ script and TSL Greatest Earth Map
+- added: "https://forums.civfanatics.com/resources/stylish-text-and-font-icons.32057/"
+  - Stylish Text and Font Icons is a UI mod that improves the aesthetics of the text with much-needed font icons and consistent formatting.
+- added: "https://forums.civfanatics.com/resources/claimed-wonders-notation.32052/"
+  - In the civics/tech chooser and tree display already completed wonders with a red outline to indicate to the player they're unable to be built.
+- added: "https://forums.civfanatics.com/resources/nasuellia-no-popups.32064/"
+   - This mod disables the popups that appear when the research for a tech or civic are completed, as well as all the cinematics for disasters, natural wonder discoveries, completed city-projects, and completed wonders. It basically makes the single-player mode behave like multi-player mode.
+- update: F1rstDan's Cool UI to v1.6.0
+  - Added a Quick Buy Button to the production screen!
+- update: Border Toggles
+  - added localizations and compability
+- update: Map Trix
+  - improvements: undeveloped tiles show which basic improvement type the land supports, and resources show which improvements unlock them.  unique improvements show which basic improvement they replaced (for warehouse bonuses).
+  - verbose mode: you can hold down Ctrl or Shift to show additional information on some tiles, like city-states, unique quarters, resources you've already connected, and undeveloped land outside your civilization.
+- update: Resource Allocation Improvements
+  - Fill remaining city slots with available factory resources when placing a facotry resource on the factory slot
+  - Unassign all factory resources instances from a city with a middle click
+  - Separates sorting and unassignment into separate atomic action groups
+  - Uses the decorator pattern to enhance the resource allocation screen
+  - Utilizes prototypes to monkey patch the existing ResourceAllocation model instance
+  - No longer overrides any core game files directly
+  - Encapsulates button logic with a Component
+- update: Policy Yield Preview
+  - Show yields even if their value is exactly zero. This way it should be easier to identify not implemented policies and/or policies with bugs
+  - Add a configuration option (after you load a savegame, go in the Options > Game menu, you'll find it at the bottom) to enable Colorful yield previews based on yield type (screenshot attached). You can now choose the preferred display mode; I'd like to work on list display for the policies next, and keep it configurable.
+  - Add support for Great Britain & Carthage new unique traditions that needed some new rules
+  - Add policy cards effect that adjust trade routes gold yield (e.g. Tariffs)
+  - Add policy cards that check settlement focus (e.g. Suffetes from Carthage)
+  - Add compatibility with tcs-improved-mod
+  - Add Leader attributes yield previews
+  - Add Civic & Science trees previews. Every unlock (both traditions and effects) now display the yields directly while opening the chooser, or in the tree view.
+- update: Enhanced Town Focus Info
+  - added localization
+- update: Transparent Appeal
+  - slighty changed colors
+- update: Trade Route Filter
+  - Adds a new filter selection on the default sort, so you can sort by Empire wide, Bonus, City or Factory resources (in Modern). Adds a close button. Amends some loc and moves the toggle button to a more sane location.
+  - Updated with icons selectors and a toggle to include untradable cities in the initial first sort.
+- update: Enhanced Diplomacy Banners
+  - Make leaders portraits circular, as that fits more with the design of the mod.
+    - Developer note: This will be one of the optional things when I implement customization in the future, I think it looks much better like this.
+  - Replace relationship icons with circular icons (mostly inspired by Civilization VI emoji's). They are also now part of the leader portrait.
+    - Developer note: I ... hate the original Civ 7 icons - some of them are circular, some of them are triangles, they are not consistent at all. I prefer the Civilization VI look with emojis, so I created these new icons with Canva. I would love to hear your feedback.
+  - Re-designed war support count banner
+    - I also did not like how this was standing under the war icon - now it has a dedicated place on the portrait of the leader (like the relationship symbol on the left side).
+  - Restore proper hovering animations for leader portraits, and animations when their turn is active
+  - Add identity to the Civilization banners - we have a banner strip (with the color of the player) visible with the Civilization symbol inside.
+    - I know this increases the space the banners take, but I feel like the banners were lacking their own "identity" and you could not understand which player was for example next to you and so on (I also received feedback about this). I will definitely making this customizable, so people can choose to toggle it off, if they want to.
+  - Add new user customization options
+    - You can now choose if you want to hide the banner with the Civilization symbol (by default it will be enabled)
+    - You can now choose if you want to always display all yields, without having to hover over to see them (by default the additional yields will still only show on hover)
+  - Fix "Sanctions" icon, it will be positioned on the portrait (thanks to @BrianKindly for the bug report!)
+  - Update "unfriendly" classic icon to have a gradient background for consistency
+- update Settlement-View Alternative UI
+  - Scripts now based off of base-game v1.1
+  - Integrated fix for mouse cursor icons in settlement-expansion screen
+  - Integrated fix for the disappearing adjacency arrows in building-mode
+  - Tweaked color-scheme and grey-out effect
+  - Removed purple coloring for city center
+
 ## Sir Loin's ModPack v3
 - bugfix: unique quarter placement fixed with removing ui/building-placement from KayleeR's Misc UI Modifications
 - added: "https://forums.civfanatics.com/resources/completed-production.32026/"

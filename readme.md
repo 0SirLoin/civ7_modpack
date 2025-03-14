@@ -7,6 +7,32 @@
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v7
+- removed: https://forums.civfanatics.com/resources/immersive-diplomacy-screen.31919/
+- removed: https://forums.civfanatics.com/resources/danield1909s-lens-modpack.31906/
+- removed: https://forums.civfanatics.com/resources/better-main-menu.31893/
+- removed: https://forums.civfanatics.com/resources/kayleers-misc-ui-modifications.31885/
+- removed: https://forums.civfanatics.com/resources/ui-qol-rogues-ui-production-queue-improvements.31861/
+- removed: https://forums.civfanatics.com/resources/completed-production.32026/
+- removed: https://forums.civfanatics.com/resources/border-toggles.32008/
+- removed: https://forums.civfanatics.com/resources/chrispressos-debug-console-cdc.31995/
+- removed: https://forums.civfanatics.com/resources/ynamp-larger-map-tsl-continents-beta.31855/
+- removed: https://forums.civfanatics.com/resources/nasuellia-no-popups.32064/
+- removed: https://forums.civfanatics.com/resources/choose-starting-layers.32067/
+- removed: https://forums.civfanatics.com/resources/modsettings-manager.32070/
+- removed: https://forums.civfanatics.com/resources/quick-legacy-path.31959/history
+- removed: https://forums.civfanatics.com/resources/sticky-game-settings.32075/
+
+## Sir Loin's ModPack v6
+- added: "https://forums.civfanatics.com/resources/sticky-game-settings.32075/"
+  - remember new game settings accross sessions
+- update F1rstDan's Cool UI:
+  - Bevölkerung wird zu Migranten, wenn eine Siedlung nicht mehr expandieren kann, Anzeige der Anzahl der Migranten
+  - Korrekte Anzeige von Vorzeichen auf abgezogenen Ebenen (Umkehrung von positiven und negativen Werten)
+  - Leichte Erhöhung der Tooltip-Breite, um Zeilenumbrüche zu reduzieren
+  - Falls das Wachstum spezialisierter Stadtbevölkerung stoppt, wird dies mit einem roten Symbol und einem "∞"-Zeichen angezeigt
+  - Hinzugefügt: Hinweis, wenn eine Siedlung nicht mit dem Handelsnetz des Imperiums verbunden ist
+
 ## Sir Loin's ModPack v5
 - added: "https://forums.civfanatics.com/resources/modsettings-manager.32070/"
   - A unique place to manage all your mod Settings

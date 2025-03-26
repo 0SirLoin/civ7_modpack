@@ -8,13 +8,10 @@
 
 # Changelog
 ## Sir Loin's ModPack v8 (26.03.2025)
-- added: https://forums.civfanatics.com/resources/trade-lens.31886/
-  - Allows you to view the trade route screen without having a Merchant
 - added: https://forums.civfanatics.com/resources/moxl-map-search.31889/
   - This mod adds a search box in the lens window above the minimap and a lens for displaying plots that match the search results.
 - added: https://forums.civfanatics.com/resources/unit-flags-overlap-fix.32101/
   - Fixes the overlap of flags for units in the same tile.
-- removed: Trade Lens (as it is now in the game)
 - update "zhekoff's Colorful Top Panel":
   - add scaling mod option to make the top bar more packed
 - update "Stylish Text and Font Icons":

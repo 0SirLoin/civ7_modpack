@@ -7,13 +7,14 @@
 - Profit
 
 # Changelog
-## Sir Loin's ModPack v8 (24.03.2025)
+## Sir Loin's ModPack v8 (26.03.2025)
 - added: https://forums.civfanatics.com/resources/trade-lens.31886/
   - Allows you to view the trade route screen without having a Merchant
 - added: https://forums.civfanatics.com/resources/moxl-map-search.31889/
   - This mod adds a search box in the lens window above the minimap and a lens for displaying plots that match the search results.
 - added: https://forums.civfanatics.com/resources/unit-flags-overlap-fix.32101/
   - Fixes the overlap of flags for units in the same tile.
+- removed: Trade Lens (as it is now in the game)
 - update "zhekoff's Colorful Top Panel":
   - add scaling mod option to make the top bar more packed
 - update "Stylish Text and Font Icons":
@@ -41,6 +42,7 @@
 - update "civ7-lf-policies-yields-preview":
   - Add Leader attributes yield previews
   - Add Civic & Science trees previews. Every unlock (both traditions and effects) now display the yields directly while opening the chooser, or in the tree view.
+  - Fix yields preview for Culture city states Monumental Architecture bonus
 - update "civ-vii-resource-allocation":
   - Placing a factory resource directly onto an empty factory slot will attempt to fill all empty city slots with available copies of the given resource. Use this to quickly fill a city with a factory resource.
   - Middle clicking a factory slot that has resource already assigned will remove all copies of that factory resource from the city. Use this to quickly clear a factory.

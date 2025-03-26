@@ -7,6 +7,90 @@
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v8 (24.03.2025)
+- added: https://forums.civfanatics.com/resources/trade-lens.31886/
+  - Allows you to view the trade route screen without having a Merchant
+- added: https://forums.civfanatics.com/resources/moxl-map-search.31889/
+  - This mod adds a search box in the lens window above the minimap and a lens for displaying plots that match the search results.
+- added: https://forums.civfanatics.com/resources/unit-flags-overlap-fix.32101/
+  - Fixes the overlap of flags for units in the same tile.
+- update "zhekoff's Colorful Top Panel":
+  - add scaling mod option to make the top bar more packed
+- update "Stylish Text and Font Icons":
+  - a lot of minor fixes for different fonts, divs, centerings etc.
+- update "F1rstDan's Cool UI":
+  - Updated for version 1.1.1
+  - Added a coin sound effect for Quick Buy
+  - Hovering over the Quick Buy Button now shows discount info for purchasing/producing
+  - Fixed a bug where city connection numbers were displayed incorrectly after a city was burned
+  - Added data source information to CityYieldsBar tooltips to avoid missing science (or other) values in certain situations.
+  - If there is only one "income" data item, CityYieldsBar tooltips will now expand to show more information.
+  - Improved the clarity of maintenance cost displays.
+  - Added MOD settings options (thanks to @beezany’s tutorial):
+    - Toggle compact layout style for city production items (disabling shows layout from other mods or default style).
+    - Toggle display of maintenance cost (compatible with other mods).
+    - Toggle display of required production (compatible with other mods).
+    - Toggle rounding of income numbers on the city panel (disabled by default).
+  - Yields Tooltip improvements:
+    - Displays population before the city name; adds a ★ before capital city names.
+    - Added turn icons.
+    - Fixed an issue where overly long titles weren’t centered.
+    - Compact layout optimizations: clearer indicators for lack of era restrictions, removed background color from maintenance cost, and more.
+- update "Claimed Wonders Notation":
+  - Adds support for the popup when you complete a tech or civic.
+- update "civ7-lf-policies-yields-preview":
+  - Add Leader attributes yield previews
+  - Add Civic & Science trees previews. Every unlock (both traditions and effects) now display the yields directly while opening the chooser, or in the tree view.
+- update "civ-vii-resource-allocation":
+  - Placing a factory resource directly onto an empty factory slot will attempt to fill all empty city slots with available copies of the given resource. Use this to quickly fill a city with a factory resource.
+  - Middle clicking a factory slot that has resource already assigned will remove all copies of that factory resource from the city. Use this to quickly clear a factory.
+- update "bz-map-trix":
+  - compability with 1.1.1
+  - highlighting for roads, obstacles, and hazardous effects
+  - more city center stats: religion and fresh water
+  - you can hold down Ctrl or Shift to show additional information on some tiles, like city-states, unique quarters, resources you've already connected, and undeveloped land outside your civilization.
+  - undeveloped tiles show which basic improvement type the land supports,and resources show which improvements unlock them. unique improvements show which basic improvement they replaced (for warehouse bonuses).
+  - resource tooltips show resource classes
+  - improved layout for Options tab bar
+  - better visibility for the mod name in Options
+  - disables improvement guides for Discovery and Village tiles
+  - adds a bronze frame to the Discovery icon
+- update "Settlement-View Alternative UI":
+  - New feature: The production panel now shows the most recent completed production-item (optional, on by default)
+  - New feature: The advisors' recommendation-icons on the production-items and their tooltips can be hidden (optional, on by default)
+  - New feature: Blocking the production-panel's quick-selection behavior so that it never auto-closes (optional, on by default)
+  - New feature: The horizontal bar at the top of a settlement-view has been tweaked to make yield-totals more readable
+  - New feature: The yields-projection of individual production-items has also been tweaked to make the values more readable
+  - New feature: The on-hover tooltips for production-items in the production-panel now have proper borders
+  - New feature: Mod settings, allowing for toggling most features, including the alt visual language itself
+  - New feature: Localized in all languages (translations other then english and italian might be sketchy)
+  - Improvement: The alt visual language has been tweaked in colors and opacity for better clarity
+  - Improvement: The adjacency-arrows have been repositioned to better fit the alt visual language
+- update "ui tweaks":
+  - Now shows the icon for the celebration bonus you picked and the description in the tooltip
+  - Increase visual distinction between when you're in a celebration and when you're not.
+  - Fix missing icons and text in the Advanced Setup and Multiplayer Lobby screens.
+- update "zhekoff's Enhanced Diplomacy Banners":
+  - Military Power now shows in the diplomatic banners. This statistic provides a rough estimate of a civilization's combat strength based on their military unit
+  - Added a new setting to "Show all player banners if you hover over your player banner"
+  - Added a new setting to reduce the overall size of the ribbons. We currently have two possible settings - "Compact" and "Ultra Compact"
+  - Fix issue where civ symbol would not show if it was enabled while banners were hidden
+  - A highly requested feature from you - you can now "hide banners" and have the default Civ VII behavior. Of course, the stats will still appear on hover!
+  - Add 5 background themes for the banners
+  - Per @Acid.Crash suggestion, you can now turn off leader dynamic expressions as well!
+  - You can now choose if you want to hide the banner with the Civilization symbol (by default it will be enabled)
+  - You can now choose if you want to always display all yields, without having to hover over to see them
+  - Fix "Sanctions" icon, it will be positioned on the portrait (thanks to @BrianKindly for the bug report!)
+  - Update "unfriendly" classic icon to have a gradient background for consistency
+  - Make leaders portraits circular, as that fits more with the design of the mod
+  - Replace relationship icons with circular icons
+  - Re-designed war support count banner
+  - Restore proper hovering animations for leader portraits, and animations when their turn is active
+  - Add identity to the Civilization banners - we have a banner strip (with the color of the player) visible with the Civilization symbol inside
+  - It is now fully compatible with 1.1.0 patch (the portraits were bugged, and that is the only issue I have seen so far).
+  - Due to common demand I have moved the banners a little bit further to the right side of the screen. Please report (preferably in GitHub) if you observe any issues with that.
+  - Added color indicators for each civilization. The idea is that you have better visual communication and know what color each civilization is (e.g. you can immediately understand who is your neighbour).
+
 ## Sir Loin's ModPack v7
 - removed: https://forums.civfanatics.com/resources/immersive-diplomacy-screen.31919/
 - removed: https://forums.civfanatics.com/resources/danield1909s-lens-modpack.31906/

@@ -7,6 +7,13 @@
 - Profit
 
 # Changelog
+
+## Sir Loin's ModPack v9 (27.03.2025)
+- added: https://forums.civfanatics.com/resources/city-hall.31946/
+  - improved production list and city details
+- added: https://forums.civfanatics.com/resources/wltks-detailed-map-tacks.32126/
+  - this mod adds the capability of placing map tacks
+
 ## Sir Loin's ModPack v8 (26.03.2025)
 - added: https://forums.civfanatics.com/resources/moxl-map-search.31889/
   - This mod adds a search box in the lens window above the minimap and a lens for displaying plots that match the search results.

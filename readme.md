@@ -8,6 +8,20 @@
 
 # Changelog
 
+## Sir Loin's ModPack v10 (30.03.2025)
+- update: City Hall
+  - support multi-yield adjacency arrows
+- update: Resource Allocation
+  - Add a distant lands filter and organize the existing filters into groups with labels
+  - Change factory filter to hide or show currently visible settlements depending on whether or not they have a factory, instead of showing or hiding the factory indicators
+- update: Map Tacks
+  - In building placement layer, highlight the plot that has the corresponding map tack.
+  - Sorting buildings by yield types.
+  - Pinning unique buildings/improvements on top of their sections.
+  - Remove unique buildings/improvements that don't belong to the current player.
+- update: Stylisch Text and Font Icons
+  - minor bugfixes
+
 ## Sir Loin's ModPack v9 (27.03.2025)
 - added: https://forums.civfanatics.com/resources/city-hall.31946/
   - improved production list and city details

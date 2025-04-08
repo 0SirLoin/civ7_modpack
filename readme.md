@@ -7,6 +7,53 @@
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v11 (08.04.2025)
+- added: Concise Specialist Lense
+  - Improves the yield preview when placing a specialist
+- update "F1rstDan's Cool UI":
+  - Added city connection count display on city banners
+    - Hovering shows more details
+    - Allows checking town food supply without opening the city panel
+    - Displays a warning when "Not connected to the trade network"
+  - Added tooltip for population info on city banners
+  - Redesigned tooltip layout for improved visual appeal
+  - Performance optimizations:
+    - Added debounce functions to reduce frequent data updates
+    - Optimized event handling for the quick buy button
+    - Removed unnecessary code bindings and property update logic
+- update "Map Tacks":
+  - Show an overlay with yield data on hovered plot and its adjacent plot in map tacks placement screen, with colored highlights indicating best/okay/invalid plots.
+  - Add a generic improvement map tack which will be updated to the corresponding plot compatible improvement. Updated chooser screen to exclude common improvements for compactness.
+  - Show settler lens layers when placing city center map tack.
+  - Show 3 tiles radius for city center map tack in chooser mode.
+  - Merge city hall and palace into one generic city center map tack.
+  - Auto delete map tack when a constructible is placed.
+  - Support double click to delete map tack in all screens.
+  - Add plot overlays with city center map tack radius. Different colors for occupied, available and overlap.
+  - Add stronger city radius when city center map tack is hovered.
+  - Show stronger city radius when placing city center map tack.
+  - Update generic city center and wonder map tacks.
+- update "Non Sticky Unit Selection":
+  - Bugfix: clicks on most UI elements had issues if the game's resolution was different from the desktop's (a huge thanks to Finwickle for the help in investigating this strange issue!)
+- update "Map Trix":
+  - adds base yields to building icons
+  - adds red, yellow, teal, purple to villages and city-state improvements
+  - adds yield rings to wonder icons
+  - increases contrast between science, culture, and influence colors
+  - improves Korean translation
+  - shows town focus under the town name
+  - (verbose mode) lists the connected settlements
+  - (verbose mode) shows district health even when full or empty
+- update "Policy Yields":
+  - Fix policies that depended on diplomacy actions (e.g. "Ekklesia" mastery from Greeks)
+  - Moved settings to the new "Add-ons" section to be aligned with other mods
+- update "Settlement Alt View":
+  - Bugfix: the "just completed!" feature was showing up in turns after the one in which the production was actually completed
+  - Rebased on civ7 v1.1.1
+- update "Diplomacy Banners"
+  - Added a bunch of performance improvements - I noticed that the game starting lagging for me in late exploration/modern era. I am not sure which mod caused this and if this mod is even considered "heavy", but I added a bunch of caching/performance improvements related to dynamic changes in the DOM. My game is now fine, but I also use a lot of mod, so I am not even sure if it caused those issues.
+  - Refreshed the classic icon set, as the original icons were made quite fast in Canva - the new ones follow the same principles but have better visibility. I also increased the size of the relationship icon for the "normal" scaling.
+  - A new icon preset - "EU", for my EU friends (and everyone else of course), which just changes the alliance icon to the EU flag.
 
 ## Sir Loin's ModPack v10 (30.03.2025)
 - update: City Hall

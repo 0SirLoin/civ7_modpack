@@ -7,6 +7,42 @@
 - Profit
 
 # Changelog
+
+## Sir Loin's ModPack v12 (24.04.2025)
+- update "City Hall":
+  - auto-select Purchase tab unless one-click repairs are enabled
+  - reduce parallax between building icons and adjacency flags
+  - green if by land, teal if by sea
+  - better color separation on the city map
+  - adjusts tile colors to make them more distinct from the terrain and from each other
+  - fixes missing production list
+  - improves Ageless building format
+  - fix for production list sorting
+    - buildings: repairs first, then highest total yield
+    - units: civilians first, then highest combat strength
+    - (was broken by the 1.2.0 game update)
+- update "Map Trix":
+  - show specialist zeroes (0/n) in verbose mode
+  - improve small text rendering
+  - new standard terminology (like Overbuildable instead of Obsolete)
+  - new Treasure Resource tooltip format
+  - various internal improvements
+- update "Stylish Text and Fonts":
+  - minor bugfixes
+- update "Map Tacks":
+  - Add as many constructible placement validation checks as possible.
+  - Improve unique quarter tack with both buildings yields if applicable. Thanks to @slothoth.
+  - Highlight generic map tacks as well when placing matching buildings.
+  - This version makes map tack validation more strict and may have incorrect calculations. Feel free to report any validation errors in the discussion thread.
+  - Support preview radius adjustment.
+  - Add several bonus yield calculation.
+  - Misc UI improvements.
+  - With a few compatibility changes, I'm releasing this first stable version. Most of my planned features are included. Enjoy!
+- update "detailed-tech-civic-progress":
+  - Fix bug in code that produced log spam.
+- update "Non Sticky Unit Selection":
+  - Rebased on civ7 v1.2.0
+
 ## Sir Loin's ModPack v11 (08.04.2025)
 - added: Concise Specialist Lense
   - Improves the yield preview when placing a specialist

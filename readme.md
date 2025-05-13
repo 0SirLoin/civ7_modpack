@@ -8,6 +8,44 @@
 
 # Changelog
 
+## Sir Loin's ModPack v13 (13.05.2025)
+- added "Adjacency Arrows Fix"
+- added "Unit Management Mod"
+- added "Flag Corps"
+- update 'Settlement-View Alternative UI':
+  - Rebased on civ7 v1.2.0
+  - Removed vanilla "last production" element in favor of my old one
+- update 'policy-yields-preview':
+  - Fix tree grid patching to allow tech queue number display, introduced in Civ7 v1.2.0 patch
+  - Fix yields preview layout on Steam Deck
+- update 'bz-map-trix':
+  - new standard terminology (like Overbuildable instead of Obsolete)
+  - new Treasure Resource tooltip format
+  - various internal improvements
+  - added autoplay support
+  - redesigned to coordinate with new Flag Corps tooltips
+  - reorganized to emphasize the most important information
+- update "zhekoff's Enhanced Diplomacy Banners":
+  - Quick hotfix for multiplayer team banners (the new thing added in 1.2.0 patch). I don't quite like it, but its a fast fix so far, so people can continue using the mod. Please let me know if it looks okay on your end, because I tried to reproduce it via games vs the PC, so it may not have been 100% accurate.
+  - Fix broken banners on "First meet" screen, as well as other diplomacy screen where they were visible with empty boxes (unfortunately I did not have time to reproduce war support diplomacy screen, but in theory it should work on every place it was previously broken and showing up empty). Refer to pictures for example (of course they are still hover-able and will respect your settings).
+- update "Enhanced Town Focus Info":
+  - Support for new 1.2.0 Game API
+  - Improved resource icon sizing and spacing in tooltips
+  - Better scaling for 4K/high-resolution displays
+  - Updated documentation
+  - Minor visual improvements
+  - Fixed Simplified Chinese Rendering in .modinfo (thanks v480615)
+- update "Map Tacks":
+  - Bug fix for validation checks involving walls and unique improvements.
+- update "detailed-Tech-civic-progress":
+  - Full compatibility update as the new version has a redundant tooltip update with wrong level value
+- update "City hall"
+  - restyled to harmonize with Flag Corps tooltips
+  - added growth, religion, and town focus details
+  - new table of warehouse bonuses for improvements
+  - City Details panel opens automatically to the last tab you used
+  - fixed production list tooltips (production cost was missing)
+
 ## Sir Loin's ModPack v12 (24.04.2025)
 - update "City Hall":
   - auto-select Purchase tab unless one-click repairs are enabled

@@ -8,6 +8,35 @@
 
 # Changelog
 
+## Sir Loin's ModPack v14 (21.05.2025)
+- added "Border Toggles"
+- update "Map Trix":
+  - workaround for Enhanced Town Focus Info bug
+  - improved divider • spacing for ideographic languages
+- update "City Hall":
+  - restyled to harmonize with Flag Corps tooltips
+  - added growth, religion, and town focus details
+  - new table of warehouse bonuses for improvements
+  - City Details panel opens automatically to the last tab you used
+  - fixed missing production cost in tooltips (vanilla civ bug)
+  - improved divider • spacing for ideographic languages
+  - aligned the new city overview tables
+  - show number of connections in heading
+- update "Transparent Appeal":
+  - Colour themes are now selectable through the Options Menu. (Thanks to beezany for the implementation: https://tinyurl.com/44kyy2u8)
+  - Now highlights features of interest (currently resources and natural wonders), so they're easy to see at a glance.
+  - Options menu localised into all supported languages (machine translated)
+- update "Unit Management Mod":
+  - Fixed another compatibility issue with using localStorage.
+  - Based on feedback, the panel will now, initially, be displayed open until the state of the panel is saved for the first time.
+  - Based on feedback, removed the helmet button off of the sub-system-dock element. The panel will now always be loaded by default in the open world.
+  - Based on feedback, removed the close button from the top righthand corner as the panel will always be loaded.
+  - Minor tweaks to the storing of the panel state.
+- update "Flag Corps":
+  - improved divider
+  - spacing for ideographic languages
+  - adjusted colors of growth & production progress meters
+
 ## Sir Loin's ModPack v13 (13.05.2025)
 - added "Adjacency Arrows Fix"
 - added "Unit Management Mod"

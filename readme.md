@@ -8,6 +8,65 @@
 
 # Changelog
 
+## Sir Loin's ModPack v16 (24.06.2025)
+- update "bz-map-trix":
+  - verified compatible with game version 1.2.2
+- update "City Hall":
+  - fix city details and building breakdown
+  - merge vanilla fixes and updates
+  - Rebased on civ7 v1.2.2
+- update "Flag Corps":
+  - diplomacy ribbons now match city banners
+  - verified compatible with game version 1.2.2
+- update "Map Tacks":
+  - Rebased on civ7 v1.2.2
+- update "Non Sticky Unit Selection":
+  - Rebased on civ7 v1.2.2
+- update "Settlement-View Alternative UI":
+  - Rebased on civ7 v1.2.2
+  - Removed the feature to prevent production-panel auto-close because it has been implemented by Fireaxis
+
+## Sir Loin's ModPack v15 (05.06.2025)
+- update "City Hall":
+  - compatibility update for game version 1.2.1
+  - improve Purchase sorting
+  - update City Details layout
+  - fix new vanilla bugs (missing yields & icons)
+- update "Flag Corps":
+  - compatibility update for game version 1.2.1
+  - fix unit flag spacing for garrisons
+  - merge new status icons and tooltips
+  - fresher town banners
+- update "Map Tacks":
+  - Fix hotkey options UI to be compatible with 1.2.1 game release.
+  - Fix crashes with invalid constructible type
+- update "Non Sticky Unit Selection":
+  - Rebased on civ7 v1.2.1
+- update "Settlement Alt View":
+  - Rebased on civ7 v1.2.1
+- update "Transparent Appeal":
+  - Added missing default value for navigable river checkbox
+  - Fixed small typo preventing layer from initialising during advanced start city placement (thanks to Acid.Crash for reporting it!)
+  - Now refreshes the layer when new tiles are revealed while the Settler Lens is active
+  - No need to reload the layer when moving units around or when fog of war is lifted
+  - For performance reasons, refresh is delayed based on map size and number of tiles revealed at once (max 800ms delay for big reveals, i.e., using debug to reveal the whole map at once)
+  - Major code revisions (no change in functionality)
+  - Now skips mountains and navigable rivers when considering 'blocked' plots
+  - Highlighting of features of interest now has checkbox options
+  - New options for highlighting volcanoes and navigable rivers
+  - Extra patch for unexpected triggering of the appeal layer. I have added blocks to prevent the layer from being activated unless it is the current active layer.
+  - Patch for Game Update 1.2.1
+- update "Unit Management Mod":
+  - Improved performance after clicking "Next Turn" while panel is open.
+  - Improved performance while selecting units.
+  - Addressed an issue that caused the panel to close randomly while using the slider option in conjunction with some other mods.
+  - Reduced the size of the panel to have it fit and play nicer with other UI components.
+- update "bz-map-trix":
+  - color-coding for conquered districts
+  - color adjustment for occupied districts​
+  - show roadless bridges
+  - highlight wonder damage
+
 ## Sir Loin's ModPack v14 (21.05.2025)
 - added "Border Toggles"
 - update "Map Trix":

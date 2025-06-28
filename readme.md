@@ -7,6 +7,10 @@
 - Profit
 
 # Changelog
+## Sir Loin's ModPack v17 (28.06.2025)
+- update "FistDans Cool UI":
+  - Rebased on civ7 v1.2.2
+  - Added an option "Whether to display city connection information in the city banner" in the settings, which is enabled by default.
 
 ## Sir Loin's ModPack v16 (24.06.2025)
 - update "bz-map-trix":
